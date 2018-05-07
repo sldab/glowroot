@@ -4,6 +4,7 @@
   <id>dist</id>
   <formats>
     <format>zip</format>
+    <format>dir</format> <!-- For the RPM package -->
   </formats>
   <baseDirectory>glowroot</baseDirectory>
   <files>

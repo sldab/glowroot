@@ -1,0 +1,5 @@
+FROM centos
+
+COPY target/glowroot-*.rpm /tmp/rpm/
+
+RUN yum install -y $(ls -1 /tmp/rpm/*.rpm)
